@@ -1,5 +1,6 @@
 # Kadane's Algorithm is used to ind the largest Sum contguous subarray with optimal traversal. 
 
+
 def maxSubArraySum(a, size):
     max_so_far = -(9*size) -1
     max_ending_here = 0
